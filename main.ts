@@ -44,7 +44,7 @@ ship = sprites.create(img`
             c c c c c c e e 2 2 2 2 4 2 e e
     `, SpriteKind.Player)
 ship.setStayInScreen(true)
-ship.bottom = 115
+ship.bottom = 110
 controller.moveSprite(ship, 100, 100)
 info.setLife(3)
 effects.starField.startScreenEffect()
